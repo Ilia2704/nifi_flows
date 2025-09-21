@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1758468514194,
+    "description" : "Batch output from PG",
+    "identifier" : "DEMOprocessGroup",
+    "lastModifiedTimestamp" : 1758468514194,
+    "name" : "DEMO_processGroup ",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
