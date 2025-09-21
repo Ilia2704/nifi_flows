@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1758468360947,
+    "description" : "NiFi with SQL integration",
+    "identifier" : "lab3",
+    "lastModifiedTimestamp" : 1758468360947,
+    "name" : "lab_3",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
