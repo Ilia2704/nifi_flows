@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1758429084205,
+    "description" : "",
+    "identifier" : "courseflow",
+    "lastModifiedTimestamp" : 1758429084205,
+    "name" : "course_flow",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
