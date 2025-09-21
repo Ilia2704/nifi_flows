@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1758468475906,
+    "description" : "examples of using expression language and JOLT ",
+    "identifier" : "DEMOEL",
+    "lastModifiedTimestamp" : 1758468475906,
+    "name" : "DEMO_EL",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
