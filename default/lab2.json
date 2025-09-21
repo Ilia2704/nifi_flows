@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1758468333190,
+    "description" : "ETL with data transformations",
+    "identifier" : "lab2",
+    "lastModifiedTimestamp" : 1758468333190,
+    "name" : "lab_2",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
