@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1758468398854,
+    "description" : "parsing and handling excel's book ",
+    "identifier" : "DEMOexcel",
+    "lastModifiedTimestamp" : 1758468398854,
+    "name" : "DEMO_excel",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
