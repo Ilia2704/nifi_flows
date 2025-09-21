@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1758468299554,
+    "description" : "simplies flow as an example",
+    "identifier" : "lab1",
+    "lastModifiedTimestamp" : 1758468299554,
+    "name" : "lab_1",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
