@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1758428600503,
+    "description" : "",
+    "identifier" : "minifitemplate",
+    "lastModifiedTimestamp" : 1758428600503,
+    "name" : "minifi_template",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
