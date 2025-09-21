@@ -1,4 +1,5 @@
 {
+  "externalControllerServices" : { },
   "flow" : {
     "createdTimestamp" : 1758428600503,
     "description" : "",
@@ -7,5 +8,233 @@
     "name" : "minifi_template",
     "versionCount" : 0
   },
-  "latest" : false
+  "flowContents" : {
+    "comments" : "",
+    "componentType" : "PROCESS_GROUP",
+    "connections" : [ {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+        "id" : "21776cee-e99c-3866-acd0-0f9fe0ee4606",
+        "name" : "FromMinifi",
+        "type" : "REMOTE_INPUT_PORT"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "426d8b01-6fb6-34bf-bd9c-c8e88fe9bc2b",
+      "labelIndex" : 0,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "12447680-5f5b-3f95-a394-7fadf3faee50",
+        "name" : "GenerateFlowFile",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 1
+    } ],
+    "controllerServices" : [ ],
+    "defaultBackPressureDataSizeThreshold" : "1 GB",
+    "defaultBackPressureObjectThreshold" : 10000,
+    "defaultFlowFileExpiration" : "0 sec",
+    "executionEngine" : "INHERITED",
+    "externalControllerServiceReferences" : { },
+    "flowFileConcurrency" : "UNBOUNDED",
+    "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+    "funnels" : [ ],
+    "identifier" : "flow-contents-group",
+    "inputPorts" : [ ],
+    "labels" : [ ],
+    "maxConcurrentTasks" : 1,
+    "name" : "minifi_flow",
+    "outputPorts" : [ ],
+    "position" : {
+      "x" : 0.0,
+      "y" : 0.0
+    },
+    "processGroups" : [ ],
+    "processors" : [ {
+      "autoTerminatedRelationships" : [ ],
+      "backoffMechanism" : "PENALIZE_FLOWFILE",
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-standard-nar",
+        "group" : "org.apache.nifi",
+        "version" : "2.5.0"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "12447680-5f5b-3f95-a394-7fadf3faee50",
+      "maxBackoffPeriod" : "10 mins",
+      "name" : "GenerateFlowFile",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : -392.0,
+        "y" : -120.0
+      },
+      "properties" : {
+        "character-set" : "UTF-8",
+        "File Size" : "0B",
+        "generate-ff-custom-text" : "Hello from MiNiFi!",
+        "Batch Size" : "1",
+        "Unique FlowFiles" : "false",
+        "Data Format" : "Text"
+      },
+      "propertyDescriptors" : {
+        "character-set" : {
+          "displayName" : "Character Set",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "character-set",
+          "sensitive" : false
+        },
+        "File Size" : {
+          "displayName" : "File Size",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "File Size",
+          "sensitive" : false
+        },
+        "mime-type" : {
+          "displayName" : "Mime Type",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "mime-type",
+          "sensitive" : false
+        },
+        "generate-ff-custom-text" : {
+          "displayName" : "Custom Text",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "generate-ff-custom-text",
+          "sensitive" : false
+        },
+        "Batch Size" : {
+          "displayName" : "Batch Size",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Batch Size",
+          "sensitive" : false
+        },
+        "Unique FlowFiles" : {
+          "displayName" : "Unique FlowFiles",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Unique FlowFiles",
+          "sensitive" : false
+        },
+        "Data Format" : {
+          "displayName" : "Data Format",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Data Format",
+          "sensitive" : false
+        }
+      },
+      "retriedRelationships" : [ ],
+      "retryCount" : 10,
+      "runDurationMillis" : 0,
+      "scheduledState" : "ENABLED",
+      "schedulingPeriod" : "1 min",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.standard.GenerateFlowFile",
+      "yieldDuration" : "1 sec"
+    } ],
+    "remoteProcessGroups" : [ {
+      "comments" : "",
+      "communicationsTimeout" : "30 sec",
+      "componentType" : "REMOTE_PROCESS_GROUP",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+      "inputPorts" : [ {
+        "batchSize" : { },
+        "comments" : "",
+        "componentType" : "REMOTE_INPUT_PORT",
+        "concurrentlySchedulableTaskCount" : 1,
+        "groupIdentifier" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+        "identifier" : "21776cee-e99c-3866-acd0-0f9fe0ee4606",
+        "name" : "FromMinifi",
+        "remoteGroupId" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+        "scheduledState" : "ENABLED",
+        "targetId" : "ff67e5b1-9272-305d-7e3a-59e5db87abed",
+        "useCompression" : false
+      }, {
+        "batchSize" : { },
+        "componentType" : "REMOTE_INPUT_PORT",
+        "concurrentlySchedulableTaskCount" : 1,
+        "groupIdentifier" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+        "identifier" : "26ad30cd-3c74-3865-b914-2920c594d084",
+        "name" : "FromCluster2",
+        "remoteGroupId" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+        "scheduledState" : "ENABLED",
+        "targetId" : "b285f71b-995a-33c2-3bbe-478fc9dbf828",
+        "useCompression" : false
+      }, {
+        "batchSize" : { },
+        "componentType" : "REMOTE_INPUT_PORT",
+        "concurrentlySchedulableTaskCount" : 1,
+        "groupIdentifier" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+        "identifier" : "8ecc0ca2-fc5d-30c3-937b-755eb13fa247",
+        "name" : "FromCluster",
+        "remoteGroupId" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+        "scheduledState" : "ENABLED",
+        "targetId" : "ae83b39e-a46b-3690-e3d4-023e7789f79f",
+        "useCompression" : false
+      }, {
+        "batchSize" : { },
+        "componentType" : "REMOTE_INPUT_PORT",
+        "concurrentlySchedulableTaskCount" : 1,
+        "groupIdentifier" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+        "identifier" : "8f1c1e90-f0e3-3243-943b-9a352df02a15",
+        "name" : "reportPort",
+        "remoteGroupId" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+        "scheduledState" : "ENABLED",
+        "targetId" : "369fdd0c-f32a-31b9-d989-a6fa6b2c1ebd",
+        "useCompression" : false
+      } ],
+      "name" : "NiFi Flow",
+      "outputPorts" : [ {
+        "batchSize" : { },
+        "componentType" : "REMOTE_OUTPUT_PORT",
+        "concurrentlySchedulableTaskCount" : 1,
+        "groupIdentifier" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+        "identifier" : "e97b724d-5c71-3ca4-b19f-c260a7c3bd5e",
+        "name" : "ToCluster",
+        "remoteGroupId" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+        "scheduledState" : "ENABLED",
+        "targetId" : "88f5f068-7aa4-378b-9843-8c2cdbec9fb2",
+        "useCompression" : false
+      } ],
+      "position" : {
+        "x" : 272.0,
+        "y" : -136.0
+      },
+      "targetUris" : "http://10.129.0.254:8443/",
+      "transportProtocol" : "RAW",
+      "yieldDuration" : "10 sec"
+    } ],
+    "scheduledState" : "ENABLED",
+    "statelessFlowTimeout" : "1 min"
+  },
+  "flowEncodingVersion" : "1.0",
+  "latest" : false,
+  "parameterContexts" : { },
+  "parameterProviders" : { },
+  "snapshotMetadata" : {
+    "flowIdentifier" : "minifitemplate",
+    "timestamp" : 1758428601438
+  }
 }
