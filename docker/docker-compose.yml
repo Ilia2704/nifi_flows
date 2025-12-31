@@ -1,0 +1,63 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: postgres
+    hostname: postgres
+    environment:
+      POSTGRES_DB: nifi
+      POSTGRES_USER: nifi
+      POSTGRES_PASSWORD: nifi
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  nifi-registry:
+    image: apache/nifi-registry:2.7.2
+    container_name: nifi-registry
+    hostname: nifi-registry
+    user: "0:0"              
+    ports:
+      - "18080:18080"
+    environment:
+      NIFI_REGISTRY_WEB_HTTP_HOST: "0.0.0.0"
+      NIFI_REGISTRY_WEB_HTTP_PORT: "18080"
+    volumes:
+      - registry_data:/opt/nifi-registry/nifi-registry-current/database
+      - registry_flow_storage:/opt/nifi-registry/nifi-registry-current/flow_storage
+
+  nifi:
+    image: apache/nifi:2.7.2
+    container_name: nifi
+    hostname: nifi
+    depends_on:
+      - postgres
+      - nifi-registry
+    ports:
+      - "8443:8443"
+    environment:
+      SINGLE_USER_CREDENTIALS_USERNAME: admin
+      SINGLE_USER_CREDENTIALS_PASSWORD: adminadminadmin
+      NIFI_WEB_HTTPS_HOST: "0.0.0.0"
+      NIFI_WEB_HTTPS_PORT: "8443"
+      NIFI_WEB_PROXY_HOST: "localhost:8443"
+    volumes:
+      - nifi_conf:/opt/nifi/nifi-current/conf
+      - nifi_state:/opt/nifi/nifi-current/state
+      - nifi_db:/opt/nifi/nifi-current/database_repository
+      - nifi_flowfile:/opt/nifi/nifi-current/flowfile_repository
+      - nifi_content:/opt/nifi/nifi-current/content_repository
+      - nifi_prov:/opt/nifi/nifi-current/provenance_repository
+
+volumes:
+  pgdata:
+  kafkadata:
+  registry_data:
+  registry_flow_storage:
+  registry_conf:
+  nifi_conf:
+  nifi_state:
+  nifi_db:
+  nifi_flowfile:
+  nifi_content:
+  nifi_prov:
