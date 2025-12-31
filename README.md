@@ -41,7 +41,7 @@ password: adminadminadmin
    - **Repository Owner**: `Ilia2704`
    - **Repository Name**: `nifi_flows`
    - **Default Branch**: `main`
-   - **Repository Path**: `flows`
+   - **Repository Path**: ``
    - **Auth**: None (public repo)
 3. Apply → on canvas **Add** → **Import from Registry** → pick your flow.
 
