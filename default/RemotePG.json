@@ -1,4 +1,5 @@
 {
+  "externalControllerServices" : { },
   "flow" : {
     "createdTimestamp" : 1767459271596,
     "description" : "This is the example of remote PG template for MiNiFi and destination flow",
@@ -7,5 +8,555 @@
     "name" : "RemotePG",
     "versionCount" : 0
   },
-  "latest" : false
+  "flowContents" : {
+    "comments" : "",
+    "componentType" : "PROCESS_GROUP",
+    "connections" : [ {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ {
+        "x" : -12.00002022584772,
+        "y" : -100.00000960573664
+      } ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "7c4a10eb-019b-1000-1996-695310ee503f",
+        "name" : "UpdateAttribute",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "7c4a10f1-019b-1000-a414-c7a0b0b09619",
+      "labelIndex" : 0,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "" ],
+      "source" : {
+        "groupId" : "flow-contents-group",
+        "id" : "7c4a10ed-019b-1000-f77b-42543a69da68",
+        "name" : "Copy of FromCluster2",
+        "type" : "INPUT_PORT"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "groupId" : "flow-contents-group",
+        "id" : "7c4a10f0-019b-1000-8c81-f65a5f7884b3",
+        "name" : "Copy of ToCluster",
+        "type" : "OUTPUT_PORT"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "7c4a10f2-019b-1000-84dc-adbd9272aaca",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "7c4a10eb-019b-1000-1996-695310ee503f",
+        "name" : "UpdateAttribute",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "7c4a10eb-019b-1000-1996-695310ee503f",
+        "name" : "UpdateAttribute",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "7c4a10f3-019b-1000-c25e-ebcc441b260b",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "" ],
+      "source" : {
+        "groupId" : "flow-contents-group",
+        "id" : "7c4a10ef-019b-1000-ecd3-038bee7eddc2",
+        "name" : "Copy of FromCluster",
+        "type" : "INPUT_PORT"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "7c4a10eb-019b-1000-1996-695310ee503f",
+        "name" : "UpdateAttribute",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "7c4a10f4-019b-1000-ac49-951347acbecf",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "7c4a10ee-019b-1000-a47e-0f00f7dbd605",
+        "name" : "Copy of FromMinifi",
+        "type" : "INPUT_PORT"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "7c4a10eb-019b-1000-1996-695310ee503f",
+        "name" : "UpdateAttribute",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "7c4a10f5-019b-1000-d36b-ae3adc4b22ca",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "" ],
+      "source" : {
+        "groupId" : "flow-contents-group",
+        "id" : "7c4a10ec-019b-1000-52f0-19cedf568e6c",
+        "name" : "Copy of reportPort",
+        "type" : "INPUT_PORT"
+      },
+      "zIndex" : 0
+    } ],
+    "controllerServices" : [ ],
+    "defaultBackPressureDataSizeThreshold" : "1 GB",
+    "defaultBackPressureObjectThreshold" : 10000,
+    "defaultFlowFileExpiration" : "0 sec",
+    "executionEngine" : "INHERITED",
+    "externalControllerServiceReferences" : { },
+    "flowFileConcurrency" : "UNBOUNDED",
+    "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+    "funnels" : [ ],
+    "identifier" : "flow-contents-group",
+    "inputPorts" : [ {
+      "allowRemoteAccess" : true,
+      "componentType" : "INPUT_PORT",
+      "concurrentlySchedulableTaskCount" : 1,
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "7c4a10ec-019b-1000-52f0-19cedf568e6c",
+      "name" : "Copy of reportPort",
+      "portFunction" : "STANDARD",
+      "position" : {
+        "x" : -524.0000202258477,
+        "y" : -44.000009605736636
+      },
+      "scheduledState" : "ENABLED",
+      "type" : "INPUT_PORT"
+    }, {
+      "allowRemoteAccess" : true,
+      "componentType" : "INPUT_PORT",
+      "concurrentlySchedulableTaskCount" : 1,
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "7c4a10ed-019b-1000-f77b-42543a69da68",
+      "name" : "Copy of FromCluster2",
+      "portFunction" : "STANDARD",
+      "position" : {
+        "x" : 75.99997977415228,
+        "y" : -252.00000960573664
+      },
+      "scheduledState" : "ENABLED",
+      "type" : "INPUT_PORT"
+    }, {
+      "allowRemoteAccess" : true,
+      "comments" : "",
+      "componentType" : "INPUT_PORT",
+      "concurrentlySchedulableTaskCount" : 1,
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "7c4a10ee-019b-1000-a47e-0f00f7dbd605",
+      "name" : "Copy of FromMinifi",
+      "portFunction" : "STANDARD",
+      "position" : {
+        "x" : -700.0000202258477,
+        "y" : 147.99999039426336
+      },
+      "scheduledState" : "ENABLED",
+      "type" : "INPUT_PORT"
+    }, {
+      "allowRemoteAccess" : true,
+      "componentType" : "INPUT_PORT",
+      "concurrentlySchedulableTaskCount" : 1,
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "7c4a10ef-019b-1000-ecd3-038bee7eddc2",
+      "name" : "Copy of FromCluster",
+      "portFunction" : "STANDARD",
+      "position" : {
+        "x" : 75.99997977415228,
+        "y" : -68.00000960573664
+      },
+      "scheduledState" : "ENABLED",
+      "type" : "INPUT_PORT"
+    } ],
+    "labels" : [ ],
+    "maxConcurrentTasks" : 1,
+    "name" : "RemotePG",
+    "outputPorts" : [ {
+      "allowRemoteAccess" : true,
+      "componentType" : "OUTPUT_PORT",
+      "concurrentlySchedulableTaskCount" : 1,
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "7c4a10f0-019b-1000-8c81-f65a5f7884b3",
+      "name" : "Copy of ToCluster",
+      "portFunction" : "STANDARD",
+      "position" : {
+        "x" : 459.9999797741523,
+        "y" : 147.99999039426336
+      },
+      "scheduledState" : "ENABLED",
+      "type" : "OUTPUT_PORT"
+    } ],
+    "position" : {
+      "x" : 0.0,
+      "y" : 0.0
+    },
+    "processGroups" : [ {
+      "comments" : "",
+      "componentType" : "PROCESS_GROUP",
+      "connections" : [ {
+        "backPressureDataSizeThreshold" : "1 GB",
+        "backPressureObjectThreshold" : 10000,
+        "bends" : [ ],
+        "componentType" : "CONNECTION",
+        "destination" : {
+          "comments" : "",
+          "groupId" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+          "id" : "21776cee-e99c-3866-acd0-0f9fe0ee4606",
+          "name" : "FromMinifi",
+          "type" : "REMOTE_INPUT_PORT"
+        },
+        "flowFileExpiration" : "0 sec",
+        "groupIdentifier" : "075c05a6-0eaa-3336-a795-04f3433eeea8",
+        "identifier" : "426d8b01-6fb6-34bf-bd9c-c8e88fe9bc2b",
+        "labelIndex" : 0,
+        "loadBalanceCompression" : "DO_NOT_COMPRESS",
+        "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+        "name" : "",
+        "partitioningAttribute" : "",
+        "prioritizers" : [ ],
+        "selectedRelationships" : [ "success" ],
+        "source" : {
+          "comments" : "",
+          "groupId" : "075c05a6-0eaa-3336-a795-04f3433eeea8",
+          "id" : "12447680-5f5b-3f95-a394-7fadf3faee50",
+          "name" : "GenerateFlowFile",
+          "type" : "PROCESSOR"
+        },
+        "zIndex" : 1
+      } ],
+      "controllerServices" : [ ],
+      "defaultBackPressureDataSizeThreshold" : "1 GB",
+      "defaultBackPressureObjectThreshold" : 10000,
+      "defaultFlowFileExpiration" : "0 sec",
+      "executionEngine" : "INHERITED",
+      "flowFileConcurrency" : "UNBOUNDED",
+      "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+      "funnels" : [ ],
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "075c05a6-0eaa-3336-a795-04f3433eeea8",
+      "inputPorts" : [ ],
+      "labels" : [ ],
+      "maxConcurrentTasks" : 1,
+      "name" : "minifitemplate",
+      "outputPorts" : [ ],
+      "position" : {
+        "x" : 248.0,
+        "y" : -360.0
+      },
+      "processGroups" : [ ],
+      "processors" : [ {
+        "autoTerminatedRelationships" : [ ],
+        "backoffMechanism" : "PENALIZE_FLOWFILE",
+        "bulletinLevel" : "WARN",
+        "bundle" : {
+          "artifact" : "nifi-standard-nar",
+          "group" : "org.apache.nifi",
+          "version" : "2.5.0"
+        },
+        "comments" : "",
+        "componentType" : "PROCESSOR",
+        "concurrentlySchedulableTaskCount" : 1,
+        "executionNode" : "ALL",
+        "groupIdentifier" : "075c05a6-0eaa-3336-a795-04f3433eeea8",
+        "identifier" : "12447680-5f5b-3f95-a394-7fadf3faee50",
+        "maxBackoffPeriod" : "10 mins",
+        "name" : "GenerateFlowFile",
+        "penaltyDuration" : "30 sec",
+        "position" : {
+          "x" : -392.0,
+          "y" : -120.0
+        },
+        "properties" : {
+          "character-set" : "UTF-8",
+          "File Size" : "0B",
+          "generate-ff-custom-text" : "Hello from MiNiFi!",
+          "Batch Size" : "1",
+          "Unique FlowFiles" : "false",
+          "Data Format" : "Text"
+        },
+        "propertyDescriptors" : {
+          "character-set" : {
+            "displayName" : "Character Set",
+            "dynamic" : false,
+            "identifiesControllerService" : false,
+            "name" : "character-set",
+            "sensitive" : false
+          },
+          "File Size" : {
+            "displayName" : "File Size",
+            "dynamic" : false,
+            "identifiesControllerService" : false,
+            "name" : "File Size",
+            "sensitive" : false
+          },
+          "mime-type" : {
+            "displayName" : "Mime Type",
+            "dynamic" : false,
+            "identifiesControllerService" : false,
+            "name" : "mime-type",
+            "sensitive" : false
+          },
+          "generate-ff-custom-text" : {
+            "displayName" : "Custom Text",
+            "dynamic" : false,
+            "identifiesControllerService" : false,
+            "name" : "generate-ff-custom-text",
+            "sensitive" : false
+          },
+          "Batch Size" : {
+            "displayName" : "Batch Size",
+            "dynamic" : false,
+            "identifiesControllerService" : false,
+            "name" : "Batch Size",
+            "sensitive" : false
+          },
+          "Unique FlowFiles" : {
+            "displayName" : "Unique FlowFiles",
+            "dynamic" : false,
+            "identifiesControllerService" : false,
+            "name" : "Unique FlowFiles",
+            "sensitive" : false
+          },
+          "Data Format" : {
+            "displayName" : "Data Format",
+            "dynamic" : false,
+            "identifiesControllerService" : false,
+            "name" : "Data Format",
+            "sensitive" : false
+          }
+        },
+        "retriedRelationships" : [ ],
+        "retryCount" : 10,
+        "runDurationMillis" : 0,
+        "scheduledState" : "ENABLED",
+        "schedulingPeriod" : "1 min",
+        "schedulingStrategy" : "TIMER_DRIVEN",
+        "style" : { },
+        "type" : "org.apache.nifi.processors.standard.GenerateFlowFile",
+        "yieldDuration" : "1 sec"
+      } ],
+      "remoteProcessGroups" : [ {
+        "comments" : "",
+        "communicationsTimeout" : "30 sec",
+        "componentType" : "REMOTE_PROCESS_GROUP",
+        "groupIdentifier" : "075c05a6-0eaa-3336-a795-04f3433eeea8",
+        "identifier" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+        "inputPorts" : [ {
+          "batchSize" : { },
+          "comments" : "",
+          "componentType" : "REMOTE_INPUT_PORT",
+          "concurrentlySchedulableTaskCount" : 1,
+          "groupIdentifier" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+          "identifier" : "21776cee-e99c-3866-acd0-0f9fe0ee4606",
+          "name" : "FromMinifi",
+          "remoteGroupId" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+          "scheduledState" : "ENABLED",
+          "targetId" : "ff67e5b1-9272-305d-7e3a-59e5db87abed",
+          "useCompression" : false
+        }, {
+          "batchSize" : { },
+          "componentType" : "REMOTE_INPUT_PORT",
+          "concurrentlySchedulableTaskCount" : 1,
+          "groupIdentifier" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+          "identifier" : "26ad30cd-3c74-3865-b914-2920c594d084",
+          "name" : "FromCluster2",
+          "remoteGroupId" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+          "scheduledState" : "ENABLED",
+          "targetId" : "b285f71b-995a-33c2-3bbe-478fc9dbf828",
+          "useCompression" : false
+        }, {
+          "batchSize" : { },
+          "componentType" : "REMOTE_INPUT_PORT",
+          "concurrentlySchedulableTaskCount" : 1,
+          "groupIdentifier" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+          "identifier" : "8ecc0ca2-fc5d-30c3-937b-755eb13fa247",
+          "name" : "FromCluster",
+          "remoteGroupId" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+          "scheduledState" : "ENABLED",
+          "targetId" : "ae83b39e-a46b-3690-e3d4-023e7789f79f",
+          "useCompression" : false
+        }, {
+          "batchSize" : { },
+          "componentType" : "REMOTE_INPUT_PORT",
+          "concurrentlySchedulableTaskCount" : 1,
+          "groupIdentifier" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+          "identifier" : "8f1c1e90-f0e3-3243-943b-9a352df02a15",
+          "name" : "reportPort",
+          "remoteGroupId" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+          "scheduledState" : "ENABLED",
+          "targetId" : "369fdd0c-f32a-31b9-d989-a6fa6b2c1ebd",
+          "useCompression" : false
+        } ],
+        "name" : "NiFi Flow",
+        "outputPorts" : [ {
+          "batchSize" : { },
+          "componentType" : "REMOTE_OUTPUT_PORT",
+          "concurrentlySchedulableTaskCount" : 1,
+          "groupIdentifier" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+          "identifier" : "e97b724d-5c71-3ca4-b19f-c260a7c3bd5e",
+          "name" : "ToCluster",
+          "remoteGroupId" : "98c09218-04cc-366c-a8ee-8cce17093a6a",
+          "scheduledState" : "ENABLED",
+          "targetId" : "88f5f068-7aa4-378b-9843-8c2cdbec9fb2",
+          "useCompression" : false
+        } ],
+        "position" : {
+          "x" : 272.0,
+          "y" : -136.0
+        },
+        "targetUris" : "http://10.129.0.254:8443/",
+        "transportProtocol" : "RAW",
+        "yieldDuration" : "10 sec"
+      } ],
+      "scheduledState" : "ENABLED",
+      "statelessFlowTimeout" : "1 min"
+    } ],
+    "processors" : [ {
+      "autoTerminatedRelationships" : [ ],
+      "backoffMechanism" : "PENALIZE_FLOWFILE",
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-update-attribute-nar",
+        "group" : "org.apache.nifi",
+        "version" : "2.5.0"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "7c4a10eb-019b-1000-1996-695310ee503f",
+      "maxBackoffPeriod" : "10 mins",
+      "name" : "UpdateAttribute",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : -188.00002022584772,
+        "y" : 123.99999039426336
+      },
+      "properties" : {
+        "Store State" : "Do not store state",
+        "canonical-value-lookup-cache-size" : "100",
+        "attribute" : "Done from RPG!"
+      },
+      "propertyDescriptors" : {
+        "Delete Attributes Expression" : {
+          "displayName" : "Delete Attributes Expression",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Delete Attributes Expression",
+          "sensitive" : false
+        },
+        "Store State" : {
+          "displayName" : "Store State",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Store State",
+          "sensitive" : false
+        },
+        "canonical-value-lookup-cache-size" : {
+          "displayName" : "Cache Value Lookup Cache Size",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "canonical-value-lookup-cache-size",
+          "sensitive" : false
+        },
+        "attribute" : {
+          "displayName" : "attribute",
+          "dynamic" : true,
+          "identifiesControllerService" : false,
+          "name" : "attribute",
+          "sensitive" : false
+        },
+        "Stateful Variables Initial Value" : {
+          "displayName" : "Stateful Variables Initial Value",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Stateful Variables Initial Value",
+          "sensitive" : false
+        }
+      },
+      "retriedRelationships" : [ ],
+      "retryCount" : 10,
+      "runDurationMillis" : 25,
+      "scheduledState" : "ENABLED",
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.attributes.UpdateAttribute",
+      "yieldDuration" : "1 sec"
+    } ],
+    "remoteProcessGroups" : [ ],
+    "scheduledState" : "ENABLED",
+    "statelessFlowTimeout" : "1 min"
+  },
+  "flowEncodingVersion" : "1.0",
+  "latest" : false,
+  "parameterContexts" : { },
+  "parameterProviders" : { },
+  "snapshotMetadata" : {
+    "author" : "admin",
+    "flowIdentifier" : "RemotePG",
+    "timestamp" : 1767459272439
+  }
 }
