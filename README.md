@@ -149,7 +149,7 @@ Helps practitioners understand advanced NiFi capabilities and internal mechanics
 
 # Related Projects
 
-- **Custom Python Processor for Apache NiFi**  
+**Custom Python Processor for Apache NiFi**  
   Repository containing a custom Apache NiFi processor implemented in Python.  
   Demonstrates how to extend NiFi with Python-based logic for custom data processing use cases.  
      https://github.com/Ilia2704/nifi-extentions-python
