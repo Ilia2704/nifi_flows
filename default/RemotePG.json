@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1767459271596,
+    "description" : "This is the example of remote PG template for MiNiFi and destination flow",
+    "identifier" : "RemotePG",
+    "lastModifiedTimestamp" : 1767459271596,
+    "name" : "RemotePG",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
