@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1767462050060,
+    "description" : "here are examples of flows for students to train:\n- general data-pipelines building \n- transformation operations \n- connection with SQL-like DB",
+    "identifier" : "labs",
+    "lastModifiedTimestamp" : 1767462050060,
+    "name" : "labs",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
