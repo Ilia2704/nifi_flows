@@ -64,9 +64,10 @@ password: adminadminadmin
 
 ![alt text](image.png)
 
-# Flow description:
+## Flow description:
 
-### RemotePG — Remote Process Group & MiNiFi integration
+### RemotePG 
+### Remote Process Group & MiNiFi integration
 
 **Purpose**  
 Demonstrates how to build destination flows that receive data from external NiFi clusters and MiNiFi agents using Remote Process Groups (RPG).
@@ -87,7 +88,8 @@ Demonstrates how to build destination flows that receive data from external NiFi
 Shows how NiFi is used in distributed environments and how remote connectivity is organized.
 
 
-### LABS — Student practice flows (core data engineering patterns)
+### LABS
+### Student practice flows (core data engineering patterns)
 
 **Purpose**  
 A collection of training flows for students to practice building real-world Apache NiFi pipelines.
@@ -116,7 +118,8 @@ A collection of training flows for students to practice building real-world Apac
 Provides a safe playground for experimenting with NiFi fundamentals and common data engineering patterns.
 
 
-### DEMO — Feature demonstrations & advanced examples
+### DEMO  
+### Feature demonstrations & advanced examples
 
 **Purpose**  
 A set of compact demo flows illustrating specific Apache NiFi features and best practices.
@@ -131,7 +134,6 @@ A set of compact demo flows illustrating specific Apache NiFi features and best 
   - scheduling
   - layout orientation
 - Kafka integration:
-  - `GenerateFlowFile`
   - `PublishKafka`
   - `ConsumeKafka`
 - Script-based processing examples (conceptual)
@@ -142,4 +144,12 @@ A set of compact demo flows illustrating specific Apache NiFi features and best 
 - Reference examples for building optimized flows
 - Quick experimentation with advanced features
 
-Helps students and practitioners understand advanced NiFi capabilities and internal mechanics.
+Helps practitioners understand advanced NiFi capabilities and internal mechanics.
+
+
+# Related Projects
+
+- **Custom Python Processor for Apache NiFi**  
+  Repository containing a custom Apache NiFi processor implemented in Python.  
+  Demonstrates how to extend NiFi with Python-based logic for custom data processing use cases.  
+     https://github.com/Ilia2704/nifi-extentions-python
