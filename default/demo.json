@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1767462782061,
+    "description" : "here are demo and examples to illustrate: \n- Expression language \n- JOLT operation \n- PG setting (batch and even orientation)\n- Kafka connection\n- Scripts using \n- Flow optimisation",
+    "identifier" : "demo",
+    "lastModifiedTimestamp" : 1767462782061,
+    "name" : "demo",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
