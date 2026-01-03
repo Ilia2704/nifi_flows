@@ -1,0 +1,2446 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template encoding-version="1.3">
+    <description></description>
+    <groupId>25a3ec00-018c-1000-dfb4-05ec23576e31</groupId>
+    <name>Execute_Python(Comments)</name>
+    <snippet>
+        <connections>
+            <id>0a65c3c0-9f48-3e39-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <versionedComponentId>0a65c3c0-9f48-3e39-a6d2-07a69a290b65</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>506ea9ba-7ebc-33ae-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>506ea9ba-7ebc-33ae-a591-672dfbebec1c</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>d25930f5-14c7-325a-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>d25930f5-14c7-325a-95a9-9466d4c8d331</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>16b1788a-0a91-3dca-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <versionedComponentId>16b1788a-0a91-3dca-8bda-e28242b1b46d</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>4b90383a-0ae3-3d94-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>4b90383a-0ae3-3d94-9326-e7c80f8e6721</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <source>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>53e190d8-bf39-31c3-0000-000000000000</id>
+                <type>FUNNEL</type>
+                <versionedComponentId>53e190d8-bf39-31c3-a82a-8a7b8607b9a6</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>2889f7f7-b3b8-36e8-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <versionedComponentId>2889f7f7-b3b8-36e8-99b0-d892f59a3405</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>506ea9ba-7ebc-33ae-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>506ea9ba-7ebc-33ae-a591-672dfbebec1c</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>fd80a75f-1f3a-334d-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>fd80a75f-1f3a-334d-9c1a-f1db986f63e1</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>2b3df09b-f01e-3c5e-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <versionedComponentId>2b3df09b-f01e-3c5e-b426-727e43f216d6</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>d25930f5-14c7-325a-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>d25930f5-14c7-325a-95a9-9466d4c8d331</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <source>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>53e190d8-bf39-31c3-0000-000000000000</id>
+                <type>FUNNEL</type>
+                <versionedComponentId>53e190d8-bf39-31c3-a82a-8a7b8607b9a6</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>2ca2d186-28ab-38d6-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <versionedComponentId>2ca2d186-28ab-38d6-9300-081a88a6e2c1</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>506ea9ba-7ebc-33ae-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>506ea9ba-7ebc-33ae-a591-672dfbebec1c</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>fbc60a79-06f6-3e0b-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>fbc60a79-06f6-3e0b-879a-2731d884d31c</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>331e62fc-a7c4-39fd-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <versionedComponentId>331e62fc-a7c4-39fd-bfd6-b7f5a664763c</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>5cedba93-7f7a-3ac9-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>5cedba93-7f7a-3ac9-bc0a-b20217d09501</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>4b90383a-0ae3-3d94-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>4b90383a-0ae3-3d94-9326-e7c80f8e6721</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>48a6efdf-235f-30ed-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <versionedComponentId>48a6efdf-235f-30ed-8903-35a3f9a47e37</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>fd80a75f-1f3a-334d-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>fd80a75f-1f3a-334d-9c1a-f1db986f63e1</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <source>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>53e190d8-bf39-31c3-0000-000000000000</id>
+                <type>FUNNEL</type>
+                <versionedComponentId>53e190d8-bf39-31c3-a82a-8a7b8607b9a6</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>49e96d79-0591-3e8f-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <versionedComponentId>49e96d79-0591-3e8f-9e6c-5da006e91cde</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>d5087673-990f-3cd0-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>d5087673-990f-3cd0-8b9a-617d2502daea</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <source>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>53e190d8-bf39-31c3-0000-000000000000</id>
+                <type>FUNNEL</type>
+                <versionedComponentId>53e190d8-bf39-31c3-a82a-8a7b8607b9a6</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>53aa2a10-21d3-3fa1-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <versionedComponentId>53aa2a10-21d3-3fa1-b5c9-943456b72d33</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>53e190d8-bf39-31c3-0000-000000000000</id>
+                <type>FUNNEL</type>
+                <versionedComponentId>53e190d8-bf39-31c3-a82a-8a7b8607b9a6</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>87653424-f733-3cc2-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>87653424-f733-3cc2-903a-6762afe7eb36</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>561aadd5-30b2-3c0b-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <versionedComponentId>561aadd5-30b2-3c0b-92ee-13fd826e9130</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>301bf5c3-1378-3206-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>301bf5c3-1378-3206-a855-4d7138c2cc8a</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>d5087673-990f-3cd0-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>d5087673-990f-3cd0-8b9a-617d2502daea</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>7cb576d1-f693-3d8b-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <versionedComponentId>7cb576d1-f693-3d8b-bdde-95a33166b1c5</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>f788ec1b-8fc3-3e06-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>f788ec1b-8fc3-3e06-bd29-63ac66b6e284</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>665349bc-b328-3594-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>665349bc-b328-3594-95e6-4e37b39cb9ae</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>88c1e58f-d4bd-375c-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <versionedComponentId>88c1e58f-d4bd-375c-ad47-d65249bc5ca0</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>900bd6d3-e2e8-3644-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>900bd6d3-e2e8-3644-8b60-597a47ef034e</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>f788ec1b-8fc3-3e06-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>f788ec1b-8fc3-3e06-bd29-63ac66b6e284</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>9c5489ca-79d8-3e3f-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <versionedComponentId>9c5489ca-79d8-3e3f-bb5f-2d96002e6903</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>d8f0a1b5-d317-3367-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>d8f0a1b5-d317-3367-b287-f8aa3f8bc472</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>3c6fdb20-7d3c-3d14-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>3c6fdb20-7d3c-3d14-90df-2b972794572e</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>9db18b3b-20da-33b0-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <versionedComponentId>9db18b3b-20da-33b0-9aac-7b4548f972a5</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>3c6fdb20-7d3c-3d14-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>3c6fdb20-7d3c-3d14-90df-2b972794572e</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <source>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>53e190d8-bf39-31c3-0000-000000000000</id>
+                <type>FUNNEL</type>
+                <versionedComponentId>53e190d8-bf39-31c3-a82a-8a7b8607b9a6</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>c08d8f28-9ae1-3f84-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <versionedComponentId>c08d8f28-9ae1-3f84-a5d5-55a9fa92c9ab</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>e3bb34c8-6bcf-3cab-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>e3bb34c8-6bcf-3cab-8d29-dc3ed29cfe0c</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <source>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>53e190d8-bf39-31c3-0000-000000000000</id>
+                <type>FUNNEL</type>
+                <versionedComponentId>53e190d8-bf39-31c3-a82a-8a7b8607b9a6</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>d3ceb369-610c-312a-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <versionedComponentId>d3ceb369-610c-312a-9d7c-1cbb1907b8fe</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>fbc60a79-06f6-3e0b-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>fbc60a79-06f6-3e0b-879a-2731d884d31c</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <source>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>53e190d8-bf39-31c3-0000-000000000000</id>
+                <type>FUNNEL</type>
+                <versionedComponentId>53e190d8-bf39-31c3-a82a-8a7b8607b9a6</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>d5843df4-42af-3676-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <versionedComponentId>d5843df4-42af-3676-b041-94e2b5bde19f</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>506ea9ba-7ebc-33ae-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>506ea9ba-7ebc-33ae-a591-672dfbebec1c</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>bfdc9d5e-c26a-3d3c-0000-000000000000</groupId>
+                <id>e3bb34c8-6bcf-3cab-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>e3bb34c8-6bcf-3cab-8d29-dc3ed29cfe0c</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <funnels>
+            <id>53e190d8-bf39-31c3-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>944.0</x>
+                <y>272.0</y>
+            </position>
+            <versionedComponentId>53e190d8-bf39-31c3-a82a-8a7b8607b9a6</versionedComponentId>
+        </funnels>
+        <labels>
+            <id>0de16c7f-1bc5-3edb-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>1392.0</x>
+                <y>0.0</y>
+            </position>
+            <versionedComponentId>0de16c7f-1bc5-3edb-be0c-45d778ee6db6</versionedComponentId>
+            <height>888.0</height>
+            <label>Работа с контентом
+
+</label>
+            <style>
+                <entry>
+                    <key>background-color</key>
+                    <value>#baedad</value>
+                </entry>
+                <entry>
+                    <key>font-size</key>
+                    <value>12px</value>
+                </entry>
+            </style>
+            <width>1272.0</width>
+            <zIndex>0</zIndex>
+        </labels>
+        <labels>
+            <id>2a145ee6-1812-3f55-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>576.0</y>
+            </position>
+            <versionedComponentId>2a145ee6-1812-3f55-9356-e32d9975f4cd</versionedComponentId>
+            <height>344.0</height>
+            <style/>
+            <width>1176.0</width>
+            <zIndex>0</zIndex>
+        </labels>
+        <labels>
+            <id>4f5ca8fe-3812-3201-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>320.0</x>
+                <y>56.0</y>
+            </position>
+            <height>88.0</height>
+            <label>Обратите внимание на вкладку "comments" в каждом процессоре
+ExecuteScript </label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>24px</value>
+                </entry>
+            </style>
+            <width>800.0</width>
+            <zIndex>0</zIndex>
+        </labels>
+        <labels>
+            <id>6068806c-c086-34f5-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>816.0</x>
+                <y>928.0</y>
+            </position>
+            <versionedComponentId>6068806c-c086-34f5-a3c8-25154c44209d</versionedComponentId>
+            <height>24.0</height>
+            <label>Читать значение атрибута и создать новый из него
+
+</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>12px</value>
+                </entry>
+            </style>
+            <width>320.0</width>
+            <zIndex>0</zIndex>
+        </labels>
+        <labels>
+            <id>c0c08d70-c7ec-3511-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>504.0</x>
+                <y>928.0</y>
+            </position>
+            <versionedComponentId>c0c08d70-c7ec-3511-8fa9-8554201d6e8d</versionedComponentId>
+            <height>24.0</height>
+            <label>Совместить значения двух атрибутов
+</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>12px</value>
+                </entry>
+            </style>
+            <width>240.0</width>
+            <zIndex>0</zIndex>
+        </labels>
+        <labels>
+            <id>c12e0518-cc57-3ffd-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>112.0</x>
+                <y>928.0</y>
+            </position>
+            <versionedComponentId>c12e0518-cc57-3ffd-b1fd-99ab1a01d428</versionedComponentId>
+            <height>24.0</height>
+            <label>Добавить атрибут
+
+</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>12px</value>
+                </entry>
+            </style>
+            <width>128.0</width>
+            <zIndex>0</zIndex>
+        </labels>
+        <processors>
+            <id>301bf5c3-1378-3206-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>432.0</x>
+                <y>776.0</y>
+            </position>
+            <versionedComponentId>301bf5c3-1378-3206-a855-4d7138c2cc8a</versionedComponentId>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.23.2</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>
+                            <name>Log Level</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>
+                            <name>Log Payload</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                        <value>
+                            <name>Attributes to Log</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>
+                            <name>attributes-to-log-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                        <value>
+                            <name>Attributes to Ignore</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                        <value>
+                            <name>attributes-to-ignore-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log FlowFile Properties</key>
+                        <value>
+                            <name>Log FlowFile Properties</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Output Format</key>
+                        <value>
+                            <name>Output Format</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                        <value>
+                            <name>Log prefix</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>
+                            <name>character-set</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>info</value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>.*</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                    </entry>
+                    <entry>
+                        <key>Log FlowFile Properties</key>
+                        <value>true</value>
+                    </entry>
+                    <entry>
+                        <key>Output Format</key>
+                        <value>Line per Attribute</value>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>LogAttribute</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+                <retry>false</retry>
+            </relationships>
+            <state>DISABLED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.LogAttribute</type>
+        </processors>
+        <processors>
+            <id>3c6fdb20-7d3c-3d14-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>816.0</x>
+                <y>592.0</y>
+            </position>
+            <versionedComponentId>3c6fdb20-7d3c-3d14-90df-2b972794572e</versionedComponentId>
+            <bundle>
+                <artifact>nifi-scripting-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.23.2</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments>Этот процессор парсит json из атрибута "attributes_payload" и создает отдельные атрибуты по каждой записи из json
+
+attributes_payload = json.loads(flowFile.getAttribute("attributes_payload"))</comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Script Engine</key>
+                        <value>
+                            <name>Script Engine</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Script File</key>
+                        <value>
+                            <name>Script File</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Script Body</key>
+                        <value>
+                            <name>Script Body</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Module Directory</key>
+                        <value>
+                            <name>Module Directory</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Script Engine</key>
+                        <value>python</value>
+                    </entry>
+                    <entry>
+                        <key>Script File</key>
+                    </entry>
+                    <entry>
+                        <key>Script Body</key>
+                        <value>import json
+flowFile = session.get()
+if flowFile != None:
+    # Get attributes
+    attributes_payload = json.loads(flowFile.getAttribute("attributes_payload"))
+    
+    # Set multiple attributes
+    flowFile = session.putAllAttributes(flowFile, attributes_payload)
+
+session.transfer(flowFile, REL_SUCCESS)
+</value>
+                    </entry>
+                    <entry>
+                        <key>Module Directory</key>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Create Multiple Attributes from list</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+                <retry>false</retry>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+                <retry>false</retry>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.script.ExecuteScript</type>
+        </processors>
+        <processors>
+            <id>4b90383a-0ae3-3d94-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>16.0</x>
+                <y>592.0</y>
+            </position>
+            <versionedComponentId>4b90383a-0ae3-3d94-9326-e7c80f8e6721</versionedComponentId>
+            <bundle>
+                <artifact>nifi-scripting-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.23.2</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments>Этот процессор создает новый атрибут "message" со значением "Hello-World"
+
+flowFile = session.putAttribute(flowFile, "message", "Hello-World")
+</comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Script Engine</key>
+                        <value>
+                            <name>Script Engine</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Script File</key>
+                        <value>
+                            <name>Script File</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Script Body</key>
+                        <value>
+                            <name>Script Body</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Module Directory</key>
+                        <value>
+                            <name>Module Directory</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Script Engine</key>
+                        <value>python</value>
+                    </entry>
+                    <entry>
+                        <key>Script File</key>
+                    </entry>
+                    <entry>
+                        <key>Script Body</key>
+                        <value>flowFile = session.get()
+if flowFile != None:
+    # Update single attribute, if the attribute doesn't exist, it will be created
+    flowFile = session.putAttribute(flowFile, "message", "Hello-World")
+session.transfer(flowFile, REL_SUCCESS)</value>
+                    </entry>
+                    <entry>
+                        <key>Module Directory</key>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Create New Attribute</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+                <retry>false</retry>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+                <retry>false</retry>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.script.ExecuteScript</type>
+        </processors>
+        <processors>
+            <id>506ea9ba-7ebc-33ae-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>2160.0</x>
+                <y>304.0</y>
+            </position>
+            <versionedComponentId>506ea9ba-7ebc-33ae-a591-672dfbebec1c</versionedComponentId>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.23.2</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>
+                            <name>Log Level</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>
+                            <name>Log Payload</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                        <value>
+                            <name>Attributes to Log</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>
+                            <name>attributes-to-log-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                        <value>
+                            <name>Attributes to Ignore</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                        <value>
+                            <name>attributes-to-ignore-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log FlowFile Properties</key>
+                        <value>
+                            <name>Log FlowFile Properties</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Output Format</key>
+                        <value>
+                            <name>Output Format</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                        <value>
+                            <name>Log prefix</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>
+                            <name>character-set</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>info</value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>.*</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                    </entry>
+                    <entry>
+                        <key>Log FlowFile Properties</key>
+                        <value>true</value>
+                    </entry>
+                    <entry>
+                        <key>Output Format</key>
+                        <value>Line per Attribute</value>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>LogAttribute</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+                <retry>false</retry>
+            </relationships>
+            <state>DISABLED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.LogAttribute</type>
+        </processors>
+        <processors>
+            <id>5cedba93-7f7a-3ac9-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>16.0</x>
+                <y>784.0</y>
+            </position>
+            <versionedComponentId>5cedba93-7f7a-3ac9-bc0a-b20217d09501</versionedComponentId>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.23.2</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>
+                            <name>Log Level</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>
+                            <name>Log Payload</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                        <value>
+                            <name>Attributes to Log</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>
+                            <name>attributes-to-log-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                        <value>
+                            <name>Attributes to Ignore</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                        <value>
+                            <name>attributes-to-ignore-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log FlowFile Properties</key>
+                        <value>
+                            <name>Log FlowFile Properties</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Output Format</key>
+                        <value>
+                            <name>Output Format</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                        <value>
+                            <name>Log prefix</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>
+                            <name>character-set</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>info</value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>.*</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                    </entry>
+                    <entry>
+                        <key>Log FlowFile Properties</key>
+                        <value>true</value>
+                    </entry>
+                    <entry>
+                        <key>Output Format</key>
+                        <value>Line per Attribute</value>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>LogAttribute</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+                <retry>false</retry>
+            </relationships>
+            <state>DISABLED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.LogAttribute</type>
+        </processors>
+        <processors>
+            <id>665349bc-b328-3594-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>1480.0</x>
+                <y>720.0</y>
+            </position>
+            <versionedComponentId>665349bc-b328-3594-95e6-4e37b39cb9ae</versionedComponentId>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.23.2</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>File Size</key>
+                        <value>
+                            <name>File Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>
+                            <name>Batch Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Data Format</key>
+                        <value>
+                            <name>Data Format</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Unique FlowFiles</key>
+                        <value>
+                            <name>Unique FlowFiles</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>generate-ff-custom-text</key>
+                        <value>
+                            <name>generate-ff-custom-text</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>
+                            <name>character-set</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>mime-type</key>
+                        <value>
+                            <name>mime-type</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>File Size</key>
+                        <value>0B</value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>Data Format</key>
+                        <value>Text</value>
+                    </entry>
+                    <entry>
+                        <key>Unique FlowFiles</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>generate-ff-custom-text</key>
+                        <value>{
+    "candidates": [
+        {
+            "id": 1,
+            "candidate": "Roberto mathews"
+        },
+        {
+            "id": 3,
+            "candidate": "Shane wade"
+        },
+        {
+            "id": 2,
+            "candidate": "Bruce tommy"
+        }
+    ]
+}</value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                    <entry>
+                        <key>mime-type</key>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>GenerateFlowFile</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+                <retry>false</retry>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.GenerateFlowFile</type>
+        </processors>
+        <processors>
+            <id>87653424-f733-3cc2-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>328.0</x>
+                <y>240.0</y>
+            </position>
+            <versionedComponentId>87653424-f733-3cc2-903a-6762afe7eb36</versionedComponentId>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.23.2</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments>Этот процессор генерирует флоуфайл с дополнительными атрибутами:
+
+attributes_payload
+{"attr1": "val1","attr2": "val2","attr3": "val3"}
+
+my_attribute
+bla bla
+
+И контентом 
+{"name":"absds","age":"sas"}
+
+Флоуфайлы растекаются по всем очередям</comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>File Size</key>
+                        <value>
+                            <name>File Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>
+                            <name>Batch Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Data Format</key>
+                        <value>
+                            <name>Data Format</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Unique FlowFiles</key>
+                        <value>
+                            <name>Unique FlowFiles</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>generate-ff-custom-text</key>
+                        <value>
+                            <name>generate-ff-custom-text</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>
+                            <name>character-set</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>mime-type</key>
+                        <value>
+                            <name>mime-type</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes_payload</key>
+                        <value>
+                            <name>attributes_payload</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>my_attribute</key>
+                        <value>
+                            <name>my_attribute</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>File Size</key>
+                        <value>0B</value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>Data Format</key>
+                        <value>Text</value>
+                    </entry>
+                    <entry>
+                        <key>Unique FlowFiles</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>generate-ff-custom-text</key>
+                        <value>{"name":"absds","age":"sas"}</value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                    <entry>
+                        <key>mime-type</key>
+                    </entry>
+                    <entry>
+                        <key>attributes_payload</key>
+                        <value>{"attr1": "val1","attr2": "val2","attr3": "val3"}</value>
+                    </entry>
+                    <entry>
+                        <key>my_attribute</key>
+                        <value>bla bla</value>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>GenerateFlowFile</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+                <retry>false</retry>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.GenerateFlowFile</type>
+        </processors>
+        <processors>
+            <id>900bd6d3-e2e8-3644-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>2360.0</x>
+                <y>720.0</y>
+            </position>
+            <versionedComponentId>900bd6d3-e2e8-3644-8b60-597a47ef034e</versionedComponentId>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.23.2</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>
+                            <name>Log Level</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>
+                            <name>Log Payload</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                        <value>
+                            <name>Attributes to Log</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>
+                            <name>attributes-to-log-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                        <value>
+                            <name>Attributes to Ignore</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                        <value>
+                            <name>attributes-to-ignore-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log FlowFile Properties</key>
+                        <value>
+                            <name>Log FlowFile Properties</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Output Format</key>
+                        <value>
+                            <name>Output Format</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                        <value>
+                            <name>Log prefix</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>
+                            <name>character-set</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>info</value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>.*</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                    </entry>
+                    <entry>
+                        <key>Log FlowFile Properties</key>
+                        <value>true</value>
+                    </entry>
+                    <entry>
+                        <key>Output Format</key>
+                        <value>Line per Attribute</value>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>LogAttribute</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+                <retry>false</retry>
+            </relationships>
+            <state>DISABLED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.LogAttribute</type>
+        </processors>
+        <processors>
+            <id>d25930f5-14c7-325a-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>1512.0</x>
+                <y>48.0</y>
+            </position>
+            <versionedComponentId>d25930f5-14c7-325a-95a9-9466d4c8d331</versionedComponentId>
+            <bundle>
+                <artifact>nifi-scripting-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.23.2</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments>Этот процессор перезаписывает контент строкой "Hello world!"
+
+        outputStream.write(bytearray('Hello World!'.encode('utf-8')))
+</comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Script Engine</key>
+                        <value>
+                            <name>Script Engine</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Script File</key>
+                        <value>
+                            <name>Script File</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Script Body</key>
+                        <value>
+                            <name>Script Body</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Module Directory</key>
+                        <value>
+                            <name>Module Directory</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Script Engine</key>
+                        <value>python</value>
+                    </entry>
+                    <entry>
+                        <key>Script File</key>
+                    </entry>
+                    <entry>
+                        <key>Script Body</key>
+                        <value>from org.apache.commons.io import IOUtils
+from java.nio.charset import StandardCharsets
+from org.apache.nifi.processor.io import StreamCallback
+    
+# Define a subclass of StreamCallback for use in session.write()
+class PyStreamCallback(StreamCallback):
+    def __init__(self):
+        pass
+    def process(self, inputStream, outputStream):
+        text = IOUtils.toString(inputStream, StandardCharsets.UTF_8)
+        outputStream.write(bytearray('Hello World!'.encode('utf-8')))
+# end class
+flowFile = session.get()
+if(flowFile != None):
+    flowFile = session.write(flowFile, PyStreamCallback())
+    
+session.transfer(flowFile, REL_SUCCESS)</value>
+                    </entry>
+                    <entry>
+                        <key>Module Directory</key>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Overwrite Flow Content</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+                <retry>false</retry>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+                <retry>false</retry>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.script.ExecuteScript</type>
+        </processors>
+        <processors>
+            <id>d5087673-990f-3cd0-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>440.0</x>
+                <y>592.0</y>
+            </position>
+            <versionedComponentId>d5087673-990f-3cd0-8b9a-617d2502daea</versionedComponentId>
+            <bundle>
+                <artifact>nifi-scripting-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.23.2</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments>Этот процессор создает новый атрибут "message" со значением "My attribute " + attribute + " updated", 
+где attribute - значение атрибута "my_attribute"
+
+attribute = flowFile.getAttribute("my_attribute") - получение значения "my_attribute" и запись его в переменную attribute 
+
+    # Create new Attribute using captured attribute value 
+    message = "My attribute " + attribute + " updated" - составление нового значения для нового атрибута и его запись 
+в переменную message 
+
+    # Add the new attribute message  to our flow
+    flowFile = session.putAttribute(flowFile, "message", message) - добавление нового атрибута с новым значением во флоуфайл</comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Script Engine</key>
+                        <value>
+                            <name>Script Engine</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Script File</key>
+                        <value>
+                            <name>Script File</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Script Body</key>
+                        <value>
+                            <name>Script Body</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Module Directory</key>
+                        <value>
+                            <name>Module Directory</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Script Engine</key>
+                        <value>python</value>
+                    </entry>
+                    <entry>
+                        <key>Script File</key>
+                    </entry>
+                    <entry>
+                        <key>Script Body</key>
+                        <value>flowFile = session.get()
+if flowFile != None:
+    # Get attributes
+    attribute = flowFile.getAttribute("my_attribute")
+    # Create new Attribute using captured attribute value 
+    message = "My attribute " + attribute + " updated"
+    # Add the new attribute message  to our flow
+    flowFile = session.putAttribute(flowFile, "message", message)
+
+
+session.transfer(flowFile, REL_SUCCESS)</value>
+                    </entry>
+                    <entry>
+                        <key>Module Directory</key>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Create New Attribute using Exiting</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+                <retry>false</retry>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+                <retry>false</retry>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.script.ExecuteScript</type>
+        </processors>
+        <processors>
+            <id>d8f0a1b5-d317-3367-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>808.0</x>
+                <y>776.0</y>
+            </position>
+            <versionedComponentId>d8f0a1b5-d317-3367-b287-f8aa3f8bc472</versionedComponentId>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.23.2</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>
+                            <name>Log Level</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>
+                            <name>Log Payload</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                        <value>
+                            <name>Attributes to Log</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>
+                            <name>attributes-to-log-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                        <value>
+                            <name>Attributes to Ignore</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                        <value>
+                            <name>attributes-to-ignore-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log FlowFile Properties</key>
+                        <value>
+                            <name>Log FlowFile Properties</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Output Format</key>
+                        <value>
+                            <name>Output Format</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                        <value>
+                            <name>Log prefix</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>
+                            <name>character-set</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>info</value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>.*</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                    </entry>
+                    <entry>
+                        <key>Log FlowFile Properties</key>
+                        <value>true</value>
+                    </entry>
+                    <entry>
+                        <key>Output Format</key>
+                        <value>Line per Attribute</value>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>LogAttribute</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+                <retry>false</retry>
+            </relationships>
+            <state>DISABLED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.LogAttribute</type>
+        </processors>
+        <processors>
+            <id>e3bb34c8-6bcf-3cab-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>1504.0</x>
+                <y>360.0</y>
+            </position>
+            <versionedComponentId>e3bb34c8-6bcf-3cab-8d29-dc3ed29cfe0c</versionedComponentId>
+            <bundle>
+                <artifact>nifi-scripting-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.23.2</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments>Дописывает в контент новую строку "Hello World!"
+
+Считывает текущее значение контента и записывает в переменную text 
+text = IOUtils.toString(inputStream, StandardCharsets.UTF_8)
+
+Записывает новое значение контента в виде строки "text + '\nHello World!', где Hello World! с новой строки
+outputStream.write(bytearray((text + '\nHello World!').encode('utf-8')))</comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Script Engine</key>
+                        <value>
+                            <name>Script Engine</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Script File</key>
+                        <value>
+                            <name>Script File</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Script Body</key>
+                        <value>
+                            <name>Script Body</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Module Directory</key>
+                        <value>
+                            <name>Module Directory</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Script Engine</key>
+                        <value>python</value>
+                    </entry>
+                    <entry>
+                        <key>Script File</key>
+                    </entry>
+                    <entry>
+                        <key>Script Body</key>
+                        <value>from org.apache.commons.io import IOUtils
+from java.nio.charset import StandardCharsets
+from org.apache.nifi.processor.io import StreamCallback
+    
+# Define a subclass of StreamCallback for use in session.write()
+class PyStreamCallback(StreamCallback):
+    def __init__(self):
+        pass
+    def process(self, inputStream, outputStream):
+        text = IOUtils.toString(inputStream, StandardCharsets.UTF_8)
+        outputStream.write(bytearray((text + '\nHello World!').encode('utf-8')))
+# end class
+flowFile = session.get()
+if(flowFile != None):
+    flowFile = session.write(flowFile, PyStreamCallback())
+    
+session.transfer(flowFile, REL_SUCCESS)</value>
+                    </entry>
+                    <entry>
+                        <key>Module Directory</key>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Append to Flow Content</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+                <retry>false</retry>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+                <retry>false</retry>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.script.ExecuteScript</type>
+        </processors>
+        <processors>
+            <id>f788ec1b-8fc3-3e06-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>1904.0</x>
+                <y>720.0</y>
+            </position>
+            <versionedComponentId>f788ec1b-8fc3-3e06-bd29-63ac66b6e284</versionedComponentId>
+            <bundle>
+                <artifact>nifi-scripting-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.23.2</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments># Считывание текста из контента
+            input_text = IOUtils.toString(inputStream, StandardCharsets.UTF_8)
+# "Распознавание" json из текста 
+            input_obj = json.loads(input_text)
+# Перебор записей json на уровне 'candidates'
+            for value in input_obj['candidates']:
+# Формирование новой строки в формате 'id':'candidate'
+                output_text = "{},{}".format(value['id'],value['candidate'])
+# Запись полученной строки в контент
+                outputStream.write(bytearray(output_text.encode('utf-8')))
+# Переход на новую строку
+                outputStream.write(bytearray('\n'.encode('utf-8')))
+</comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Script Engine</key>
+                        <value>
+                            <name>Script Engine</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Script File</key>
+                        <value>
+                            <name>Script File</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Script Body</key>
+                        <value>
+                            <name>Script Body</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Module Directory</key>
+                        <value>
+                            <name>Module Directory</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Script Engine</key>
+                        <value>python</value>
+                    </entry>
+                    <entry>
+                        <key>Script File</key>
+                    </entry>
+                    <entry>
+                        <key>Script Body</key>
+                        <value>import json
+import sys
+import traceback
+from java.nio.charset import StandardCharsets
+from org.apache.commons.io import IOUtils
+from org.apache.nifi.processor.io import StreamCallback
+from org.python.core.util import StringUtil
+
+
+class TransformCallback(StreamCallback):
+    def __init__(self):
+        pass
+
+    def process(self, inputStream, outputStream):
+        try:
+            # Read input FlowFile content
+            input_text = IOUtils.toString(inputStream, StandardCharsets.UTF_8)
+            input_obj = json.loads(input_text)
+            for value in input_obj['candidates']:
+                output_text = "{},{}".format(value['id'],value['candidate'])
+                outputStream.write(bytearray(output_text.encode('utf-8')))
+                outputStream.write(bytearray('\n'.encode('utf-8')))
+
+        except:
+            traceback.print_exc(file=sys.stdout)
+            raise
+
+
+flowFile = session.get()
+if flowFile != None:
+    flowFile = session.write(flowFile, TransformCallback())
+
+    # Finish by transferring the FlowFile to an output relationship
+session.transfer(flowFile, REL_SUCCESS)</value>
+                    </entry>
+                    <entry>
+                        <key>Module Directory</key>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Read,Transform and Write</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+                <retry>false</retry>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+                <retry>false</retry>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.script.ExecuteScript</type>
+        </processors>
+        <processors>
+            <id>fbc60a79-06f6-3e0b-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>1512.0</x>
+                <y>200.0</y>
+            </position>
+            <versionedComponentId>fbc60a79-06f6-3e0b-879a-2731d884d31c</versionedComponentId>
+            <bundle>
+                <artifact>nifi-scripting-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.23.2</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Script Engine</key>
+                        <value>
+                            <name>Script Engine</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Script File</key>
+                        <value>
+                            <name>Script File</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Script Body</key>
+                        <value>
+                            <name>Script Body</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Module Directory</key>
+                        <value>
+                            <name>Module Directory</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Script Engine</key>
+                        <value>python</value>
+                    </entry>
+                    <entry>
+                        <key>Script File</key>
+                    </entry>
+                    <entry>
+                        <key>Script Body</key>
+                        <value>from org.apache.commons.io import IOUtils
+from java.nio.charset import StandardCharsets
+from org.apache.nifi.processor.io import OutputStreamCallback
+ 
+# Define a subclass of OutputStreamCallback for use in session.write()
+class PyOutputStreamCallback(OutputStreamCallback):
+  def __init__(self):
+        pass
+  def process(self, outputStream):
+    outputStream.write(bytearray('Hello World!'.encode('utf-8')))
+# end class
+flowFile = session.get()
+if(flowFile != None):
+    flowFile = session.write(flowFile, PyOutputStreamCallback())
+session.transfer(flowFile, REL_SUCCESS)</value>
+                    </entry>
+                    <entry>
+                        <key>Module Directory</key>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Write to Flow Content</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+                <retry>false</retry>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+                <retry>false</retry>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.script.ExecuteScript</type>
+        </processors>
+        <processors>
+            <id>fd80a75f-1f3a-334d-0000-000000000000</id>
+            <parentGroupId>bfdc9d5e-c26a-3d3c-0000-000000000000</parentGroupId>
+            <position>
+                <x>1504.0</x>
+                <y>520.0</y>
+            </position>
+            <versionedComponentId>fd80a75f-1f3a-334d-9c1a-f1db986f63e1</versionedComponentId>
+            <bundle>
+                <artifact>nifi-scripting-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.23.2</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments>Считывает json из контента, 
+
+            #Считывает текст из контента
+            input_text = IOUtils.toString(inputStream, StandardCharsets.UTF_8)
+           
+            #Считывает текст как json 
+            input_obj = json.loads(input_text)
+
+            #Удаляет запись по ключу "name"
+            input_obj.pop('name') 
+            output_obj = json.dumps(input_obj)
+
+            #Записывает новый json в контент
+            outputStream.write(bytearray(output_obj.encode('utf-8')))</comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Script Engine</key>
+                        <value>
+                            <name>Script Engine</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Script File</key>
+                        <value>
+                            <name>Script File</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Script Body</key>
+                        <value>
+                            <name>Script Body</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Module Directory</key>
+                        <value>
+                            <name>Module Directory</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Script Engine</key>
+                        <value>python</value>
+                    </entry>
+                    <entry>
+                        <key>Script File</key>
+                    </entry>
+                    <entry>
+                        <key>Script Body</key>
+                        <value>import json
+import sys
+import traceback
+from java.nio.charset import StandardCharsets
+from org.apache.commons.io import IOUtils
+from org.apache.nifi.processor.io import StreamCallback
+from org.python.core.util import StringUtil
+
+
+class TransformCallback(StreamCallback):
+    def __init__(self):
+        pass
+
+    def process(self, inputStream, outputStream):
+        try:
+            # Read input FlowFile content
+            input_text = IOUtils.toString(inputStream, StandardCharsets.UTF_8)
+            input_obj = json.loads(input_text)
+
+            # Remove key
+            input_obj.pop('name') 
+            output_obj = json.dumps(input_obj)
+
+            # Write output content
+            outputStream.write(bytearray(output_obj.encode('utf-8')))
+        except:
+            traceback.print_exc(file=sys.stdout)
+            raise
+
+
+flowFile = session.get()
+if flowFile != None:
+    flowFile = session.write(flowFile, TransformCallback())
+
+    # Finish by transferring the FlowFile to an output relationship
+session.transfer(flowFile, REL_SUCCESS)</value>
+                    </entry>
+                    <entry>
+                        <key>Module Directory</key>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Read,Remove Element and Write</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+                <retry>false</retry>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+                <retry>false</retry>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.script.ExecuteScript</type>
+        </processors>
+    </snippet>
+    <timestamp>02/29/2024 22:21:03 UTC</timestamp>
+</template>
