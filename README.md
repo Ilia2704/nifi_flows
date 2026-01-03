@@ -4,8 +4,8 @@ Here is the flows were built in nifi 2.x for BigDataSchool course
 Minimal local environment for developing and testing Apache NiFi flows.
 
 This stack runs:
-- Apache NiFi **2.7.2** (single node, HTTPS)
-- NiFi Registry **2.7.2**
+- Apache NiFi **2.5.0** (single node, HTTPS)
+- NiFi Registry **2.5.0**
 - Apache Kafka (single broker)
 - PostgreSQL
 
@@ -26,6 +26,22 @@ From the **repository root**:
 docker compose -f docker/docker-compose.yml up -d
 ```
 
+## How to stop
+
+From the **repository root**:
+
+```bash
+docker compose -f docker/docker-compose.yml stop
+```
+
+## How to remove everything
+
+From the **repository root**:
+
+```bash
+docker compose -f docker/docker-compose.yml down -v
+```
+
 ## UI access
 
 ``` https://localhost:8443/nifi```
@@ -44,4 +60,3 @@ password: adminadminadmin
    - **Repository Path**: ``
    - **Auth**: None (public repo)
 3. Apply → on canvas **Add** → **Import from Registry** → pick your flow.
-
