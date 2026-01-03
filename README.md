@@ -60,3 +60,5 @@ password: adminadminadmin
    - **Repository Path**: ``
    - **Auth**: None (public repo)
 3. Apply → on canvas **Add** → **Import from Registry** → pick your flow.
+
+![alt text](image.png)
