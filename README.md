@@ -146,6 +146,17 @@ A set of compact demo flows illustrating specific Apache NiFi features and best 
 
 Helps practitioners understand advanced NiFi capabilities and internal mechanics.
 
+## Scope & limitations
+
+This repository is intended for:
+- local development
+- learning and experimentation
+
+It does not cover:
+- production security
+- HA NiFi clusters
+- secrets management
+
 
 # Related Projects
 
