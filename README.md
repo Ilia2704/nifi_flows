@@ -47,6 +47,7 @@ docker compose -f docker/docker-compose.yml down -v
 ``` https://localhost:8443/nifi```
 
 username: admin
+
 password: adminadminadmin
 
 ## Import NiFi Flows from GitHub
