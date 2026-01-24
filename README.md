@@ -1,15 +1,37 @@
 # nifi_flows (local Docker stack)
 
-Here is the flows were built in nifi 2.x for BigDataSchool course
+## Overview
+
+Reusable local infrastructure for Apache NiFi development.
+
+Designed to:
+
+- prototype and test data pipelines locally
+- develop flows before deploying to production clusters
+- integrate NiFi with Kafka and databases
+- version flows via NiFi Registry
+- reproduce real-world data engineering environments
+
+Useful for rapid experimentation without touching production systems.
+
+Here is the local stack for developing, testing, and prototyping Apache NiFi data pipelines
 Minimal local environment for developing and testing Apache NiFi flows.
 
 This stack runs:
-- Apache NiFi **2.5.0** (single node, HTTPS)
-- NiFi Registry **2.5.0**
-- Apache Kafka (single broker)
-- PostgreSQL
 
-Designed for **local development**
+NiFi → Kafka → PostgreSQL  
+NiFi Registry for versioned flows  
+All services run locally via Docker Compose
+
+Provides a reproducible Docker environment that mirrors real-world NiFi + Kafka + PostgreSQL setups.
+
+## Tech Stack
+
+- Apache NiFi 2.5
+- NiFi Registry
+- Apache Kafka
+- PostgreSQL
+- Docker / Docker Compose
 
 ## Requirements
 
@@ -88,11 +110,10 @@ Demonstrates how to build destination flows that receive data from external NiFi
 Shows how NiFi is used in distributed environments and how remote connectivity is organized.
 
 
-### LABS
-### Student practice flows (core data engineering patterns)
+### Reusable example pipelines (core data engineering patterns)
 
 **Purpose**  
-A collection of training flows for students to practice building real-world Apache NiFi pipelines.
+A collection of flows to practice building real-world Apache NiFi pipelines.
 
 **Key concepts covered**
 - General data pipeline construction
@@ -115,10 +136,9 @@ A collection of training flows for students to practice building real-world Apac
 - Practicing data transformation and enrichment
 - Understanding backpressure and flow control
 
-Provides a safe playground for experimenting with NiFi fundamentals and common data engineering patterns.
+Provides an isolated local environment for experimentation with NiFi fundamentals and common data engineering patterns.
 
 
-### DEMO  
 ### Feature demonstrations & advanced examples
 
 **Purpose**  
@@ -139,7 +159,7 @@ A set of compact demo flows illustrating specific Apache NiFi features and best 
 - Script-based processing examples (conceptual)
 
 **Typical use cases**
-- Live demonstrations during lectures
+- Reference pipelines for common data engineering patterns
 - Explaining processor behavior and configuration
 - Reference examples for building optimized flows
 - Quick experimentation with advanced features
@@ -150,7 +170,7 @@ Helps practitioners understand advanced NiFi capabilities and internal mechanics
 
 This repository is intended for:
 - local development
-- learning and experimentation
+- experimentation
 
 It does not cover:
 - production security
